@@ -9,7 +9,7 @@ public class SlidingCurseEnchantment extends BMEnchantment
 {
 	public SlidingCurseEnchantment()
 	{
-		super(Rarity.UNCOMMON, EnchantmentTarget.ARMOR_FEET, new EquipmentSlot[]{EquipmentSlot.FEET});
+		super(Rarity.RARE, EnchantmentTarget.ARMOR_FEET, new EquipmentSlot[]{EquipmentSlot.FEET});
 	}
 
 	@Override

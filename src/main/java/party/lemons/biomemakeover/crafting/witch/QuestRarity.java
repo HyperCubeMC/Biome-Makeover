@@ -9,7 +9,7 @@ import java.util.Locale;
 
 public enum QuestRarity
 {
-	COMMON(Rarity.COMMON, 0, new int[]{110, 150, 10, 1}), UNCOMMON(Rarity.UNCOMMON, 8, new int[]{90, 120, 75, 10}), RARE(Rarity.RARE, 15, new int[]{0, 0, 100, 50}), EPIC(Rarity.EPIC, 30, new int[]{0, 0, 0, 100});
+	COMMON(Rarity.COMMON, 0, new int[]{110, 150, 10, 1}), UNCOMMON(Rarity.RARE, 8, new int[]{90, 120, 75, 10}), RARE(Rarity.RARE, 15, new int[]{0, 0, 100, 50}), EPIC(Rarity.EPIC, 30, new int[]{0, 0, 0, 100});
 
 	private final int requiredPoints;
 	private final int[] rewardWeights;

@@ -10,7 +10,7 @@ public class SuffocationCurseEnchantment extends BMEnchantment
 {
 	public SuffocationCurseEnchantment()
 	{
-		super(Rarity.UNCOMMON, EnchantmentTarget.ARMOR_HEAD, new EquipmentSlot[]{EquipmentSlot.HEAD});
+		super(Rarity.RARE, EnchantmentTarget.ARMOR_HEAD, new EquipmentSlot[]{EquipmentSlot.HEAD});
 	}
 
 	public int getMinPower(int level)

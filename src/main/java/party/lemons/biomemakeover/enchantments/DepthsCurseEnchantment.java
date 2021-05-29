@@ -10,7 +10,7 @@ public class DepthsCurseEnchantment extends BMEnchantment
 {
 	public DepthsCurseEnchantment()
 	{
-		super(Rarity.UNCOMMON, EnchantmentTarget.ARMOR_FEET, new EquipmentSlot[]{EquipmentSlot.FEET});
+		super(Rarity.RARE, EnchantmentTarget.ARMOR_FEET, new EquipmentSlot[]{EquipmentSlot.FEET});
 	}
 
 	@Override

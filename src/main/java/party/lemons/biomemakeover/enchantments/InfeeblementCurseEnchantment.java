@@ -11,7 +11,7 @@ public class InfeeblementCurseEnchantment extends BMEnchantment
 {
 	public InfeeblementCurseEnchantment()
 	{
-		super(Rarity.UNCOMMON, EnchantmentTarget.VANISHABLE, EquipmentSlot.values());
+		super(Rarity.RARE, EnchantmentTarget.VANISHABLE, EquipmentSlot.values());
 	}
 
 	@Override

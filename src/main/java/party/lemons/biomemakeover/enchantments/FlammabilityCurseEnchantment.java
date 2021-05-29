@@ -7,7 +7,7 @@ public class FlammabilityCurseEnchantment extends BMEnchantment
 {
 	public FlammabilityCurseEnchantment()
 	{
-		super(Rarity.UNCOMMON, EnchantmentTarget.ARMOR, new EquipmentSlot[]{EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET});
+		super(Rarity.RARE, EnchantmentTarget.ARMOR, new EquipmentSlot[]{EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET});
 	}
 
 	public int getMinPower(int level)

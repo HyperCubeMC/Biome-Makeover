@@ -13,7 +13,7 @@ public class UnwieldinessCurseEnchantment extends BMEnchantment
 {
 	public UnwieldinessCurseEnchantment()
 	{
-		super(Rarity.UNCOMMON, EnchantmentTarget.WEAPON, new EquipmentSlot[]{EquipmentSlot.MAINHAND, EquipmentSlot.OFFHAND});
+		super(Rarity.RARE, EnchantmentTarget.WEAPON, new EquipmentSlot[]{EquipmentSlot.MAINHAND, EquipmentSlot.OFFHAND});
 	}
 
 	@Override

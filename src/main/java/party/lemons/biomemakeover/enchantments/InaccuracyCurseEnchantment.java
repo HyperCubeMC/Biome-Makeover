@@ -13,7 +13,7 @@ public class InaccuracyCurseEnchantment extends BMEnchantment
 {
 	public InaccuracyCurseEnchantment()
 	{
-		super(Rarity.UNCOMMON, EnchantmentTarget.BOW, new EquipmentSlot[]{EquipmentSlot.MAINHAND});
+		super(Rarity.RARE, EnchantmentTarget.BOW, new EquipmentSlot[]{EquipmentSlot.MAINHAND});
 	}
 
 	public int getMinPower(int level)

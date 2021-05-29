@@ -7,7 +7,7 @@ public class BucklingCurseEnchantment extends BMEnchantment
 {
 	public BucklingCurseEnchantment()
 	{
-		super(Rarity.UNCOMMON, EnchantmentTarget.ARMOR_LEGS, new EquipmentSlot[]{EquipmentSlot.LEGS});
+		super(Rarity.RARE, EnchantmentTarget.ARMOR_LEGS, new EquipmentSlot[]{EquipmentSlot.LEGS});
 	}
 
 	public int getMinPower(int level)
